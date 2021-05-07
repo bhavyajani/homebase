@@ -1,0 +1,7 @@
+export {default as Navbar} from './navbar/Navbar'
+export {default as Products} from './products/Products'
+export {default as Homepage} from './home/HomePage'
+export {default as Loginpage} from './login/LoginPage'
+export {default as AboutUs} from './about/AboutUs'
+export {default as ContactUs} from './contact/ContactUs'
+export {default as Footer} from './footer/Footer'
