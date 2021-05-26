@@ -1,7 +1,6 @@
 import { makeStyles } from '@material-ui/core/styles';
 
 export default makeStyles((theme) => ({
-  toolbar: theme.mixins.toolbar,
   main:  {
     backgroundColor: theme.palette.background.default
   },
@@ -13,4 +12,10 @@ export default makeStyles((theme) => ({
   root: {
     flexGrow: 1,
   },
+  spacing: {
+    paddingBottom: '5px'
+  },
+  sectionContainer: {
+    display: 'flex'
+  }
 }));

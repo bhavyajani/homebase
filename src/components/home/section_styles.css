@@ -1,0 +1,7 @@
+.sections {
+  display: flex;
+  overflow-x: scroll;
+}
+.sections::-webkit-scrollbar {
+  display: none;
+}

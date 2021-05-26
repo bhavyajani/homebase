@@ -6,24 +6,29 @@ export default makeStyles((theme) => ({
   bannerImage: {
     width: '100%',
     height: 300,
-    objectFit: 'cover'
+    objectFit: 'contain'
   },
   root: {
-    maxWidth: '100%'
+    minWidth: '250px'
+    // maxWidth: '100%'
+  },
+  spacing: {
+    paddingBottom: '3px'
   },
   media: {
     height: 0,
-    paddingTop: '56.25%'
+    paddingTop: '60%'
   },
   cardActions: {
     display: 'flex',
-    justifyContent: 'flex-end'
+    justifyContent: 'center'
   },
   cardContent: {
     display: 'flex',
-    justifyContent: 'space-between'
+    justifyContent: "center"
   },
   main:  {
-    backgroundColor: theme.palette.background.default
+    backgroundColor: theme.palette.background.default,
+    margin: '0 15px'
   }
 }));
